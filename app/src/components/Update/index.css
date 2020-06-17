@@ -1,0 +1,50 @@
+.form{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ask{
+    width: 70%;
+    height: 85vh;
+    border: 1px solid rebeccapurple;
+    background-color: #f8f9f8;
+    border-radius: 5px; 
+}
+.ask .container{
+    padding: 20px;
+
+}
+.form-group{
+    display: flex;
+    flex-flow: column;
+    margin: 30px 0;
+}
+.form-group label{
+    color: #6f17bd;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.form-group input{
+    margin: 5px 0;
+    width: 90%;
+    padding: 15px;
+    outline: none;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+}
+
+.form-group button{
+    background-color: #9159c1;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    outline: none;
+}

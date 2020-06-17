@@ -1,0 +1,27 @@
+aside{
+    background-color: #9159c1;
+    padding: 30px;
+    color:white;
+    font-size: 22px;
+}
+aside ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+aside ul li button{
+    background-color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+
+    font-size: 18px;
+    color: #9159c1;
+    text-decoration: none;
+}
